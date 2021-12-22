@@ -1,0 +1,49 @@
+
+  .zine_layout_template.back_cover_ontario .layout-bg {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    height: 792px;
+    width: 612px;
+    background-color: #12141a;
+  }
+  .zine_layout_template.back_cover_ontario .post-wrapper .layout-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 673.2px;
+    width: 612px;
+    background-size: cover;
+    display: block;
+  }
+  .zine_layout_template.back_cover_ontario .image-cover {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+  }
+  .zine_layout_template.back_cover_ontario .post-wrapper .layout-text {
+    position: absolute;
+    display:flex;
+    top: 600px;
+    left: 4%;
+    height: 95.04px;
+    width: 563.04px;
+    text-align: left;
+    color: #fff;
+    font-size: 12px;
+  }
+  ul.no-list {
+    padding-left: 0;
+    margin-top: -15px;
+  }
+  ul.no-list > li {
+    list-style: none;
+  }
+  .ui-draggable-handle{
+    transform-origin: left top;
+    transform: scale(0.86765);
+    display: block; 
+    cursor: pointer;
+  }

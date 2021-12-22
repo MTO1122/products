@@ -1,0 +1,817 @@
+#wrapper {
+    overflow: hidden;
+    position: relative;
+    background: #f2f2f2;
+    width: 100%;
+    height: 100%;
+  }
+  .vertical-wrapper {
+    z-index: 1;
+    padding-top: var(--wrapper-top, 95px);
+    width: 100%;
+  }
+  body,
+  .zine-vertical-wrapper,
+  .vertical-wrapper,
+  .vertical-body {
+    height: auto;
+  }
+  .zine-vertical-wrapper,
+  .vertical-wrapper,
+  .vertical-body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: block;
+  }
+  .inner {
+    width: 530.9px;
+  }
+  body.zine-vertical-wrapper,
+  .vertical-wrapper,
+  .vertical-body,
+  .inner {
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  
+  .zine_content #zine_zineWrapper1 {
+    background-color: #fff;
+  }
+  .coverpage-type-a_v2.FILTER_ZineWrapper {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    border: none !important;
+    border-left-width: none !important;
+    border-right-width: none !important;
+    border-right-style: none !important;
+    line-height: normal;
+  }
+  .convert-type-a_v2 .FILTER_ZineWrapper .decor_cover_bg {
+    width: 100% !important;
+    height: 100%;
+    background: #353535;
+  }
+  .coverpage-type-a_v2 .middle {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .coverpage-type-a_v2 .image_fill {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .coverpage-type-a_v2 .Travel_Image {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 612px;
+    height: 792px;
+  }
+  .coverpage-type-a_v2 .zinetitle_bg {
+    position: absolute;
+    width: 477.36px;
+    height: 126.72px;
+    top: 80%;
+    left: 22%;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.5);
+    margin-top: 105%;
+  }
+  .ui-draggable-handle {
+    touch-action: none;
+  }
+  .coverpage-type-a_v2.FILTER_ZineWrapper .draggable {
+    z-index: 1000;
+  }
+  .coverpage-type-a_v2 .zinetitle {
+    position: absolute;
+    width: 459px;
+    max-height: 118.8px;
+    top: 81%;
+    left: 24%;
+    font-family: "AvenirNextLTPro-Regular";
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+    word-wrap: break-word;
+    overflow: hidden;
+    padding: 5px;
+    margin-top: 105%;
+  }
+  .coverpage-type-a_v2 .content-editable {
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+  .text-left {
+    text-align: left;
+  }
+  /* end cover page  */
+  /* start pages-1  */
+  
+  body.zine-vertical-wrapper,
+  .vertical-wrapper .vertical-body {
+    height: auto;
+  }
+  
+  .zine-vertical-wrapper .vertical-wrapper .vertical-body {
+    width: 100%;
+    position: relative;
+    display: block;
+  }
+  body.zine-vertical-wrapper .vertical-wrapper .vertical-body .inner {
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  #wrapper ul li .zine_content,
+  #wrapper .zine_content {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -webkit-text-size-adjust: auto;
+    box-sizing: border-box;
+    background-origin: content-box, padding-box;
+    box-shadow: rgb(51 51 51 / 30%) 0 0 10px;
+  }
+  body.zine-vertical-wrapper .vertical-wrapper .vertical-body .zine_content {
+    box-shadow: rgb(51 51 51 / 30%) 0 0 10px;
+  }
+  .zine-vertical-wrapper .vertical-wrapper .zine_content:not(:last-child) {
+    margin-bottom: 1.2% !important;
+  }
+  .zine-vertical-wrapper .vertical-wrapper .zine_content {
+    background: #aa2828;
+    overflow: hidden;
+    box-shadow: 3px 2px 2px black;
+  }
+  .zine_layout_template.product_catalog_ontario.zine_container_base {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    line-height: 1.1;
+    font-family: Helvetica;
+    background-color: white;
+  }
+  .background_color {
+    background-color: white;
+  }
+  .zine_container_base {
+    box-sizing: border-box;
+    height: 100%;
+    max-width: 100%;
+  }
+  /* class div zine_page_middle  */
+  .zine_layout_template.product_catalog_ontario .zine_page_middle {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+  .zine_layout_template.product_catalog_ontario .products {
+    height: 100%;
+    width: 100%;
+  }
+  .list-inline {
+    list-style: none;
+  }
+  .zine_layout_template.product_catalog_ontario .product {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    float: left;
+  }
+  .zine_layout_template .product_catalog_ontario p,
+  .zine_layout_template .product_catalog_ontario div,
+  .zine_layout_template .product_catalog_ontario .list-inline,
+  .zine_layout_template .product_catalog_ontario .list-inline > li {
+    margin: 0;
+    padding: 0;
+  }
+  .zine_layout_template.product_catalog_ontario .product-1 .product-img {
+    top: 1.26263%;
+    left: 1.63399%;
+    width: 296px;
+    height: 409.76px;
+  }
+  .zine_layout_template.product_catalog_ontario .product-img {
+    position: absolute;
+  }
+  .zine_layout_template.product_catalog_ontario .draggable {
+    z-index: 1000;
+  }
+  
+  .hidden {
+    display: none !important;
+  }
+  a {
+    color: #337ab7;
+    text-decoration: none;
+  }
+  a {
+    background-color: transparent;
+  }
+  a:active,
+  a:hover {
+    cursor: pointer;
+  }
+  a:focus,
+  a:hover {
+    color: #23527c;
+    text-decoration: underline;
+  }
+  a {
+    background-color: transparent;
+  }
+  .zine_layout_template.product_catalog_ontario .product-img .fit {
+    background-position: center;
+  }
+  .fit {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+  }
+  /* end product image  */
+  .zine_layout_template.product_catalog_ontario .product-1 .product-index {
+    top: 13.25%;
+    left: 53.26797%;
+  }
+  .zine_layout_template.product_catalog_ontario .product-index {
+    width: 30px;
+    height: 19.8px;
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+  .zine_layout_template.product_catalog_ontario .draggable {
+    z-index: 1000;
+  }
+  .zine_layout_template.product_catalog_ontario .content-editable {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .themes_text_color {
+    color: #005184;
+  }
+  /* p-title-1-587143  */
+  .zine_layout_template.product_catalog_ontario .product-1 .product-title {
+    top: 13.25%;
+    left: 57.35294%;
+  }
+  .zine_layout_template.product_catalog_ontario .product-title {
+    width: 246px;
+    height: 19.8px;
+    position: absolute;
+    overflow: hidden;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+  /* p-desc-1-587143  */
+  .zine_layout_template.product_catalog_ontario .product-1 .product-desc {
+    top: 15.75%;
+    left: 57.35294%;
+  }
+  .zine_layout_template.product_catalog_ontario .product-desc {
+    width: 246px;
+    max-height: 44.352px;
+    position: absolute;
+    overflow: hidden;
+    font-size: 12px;
+  }
+  
+  /* pc-desc-1332242-587143  */
+  .zine_layout_template.product_catalog_ontario .product-desc .content-editable {
+    max-height: inherit;
+  }
+  /* pv-currency-1-1-587143  */
+  .zine_layout_template.product_catalog_ontario .product-1 .product-currency {
+    top: 21.35%;
+    left: 57.35294%;
+  }
+  .zine_layout_template.product_catalog_ontario .product-currency {
+    width: 40px;
+    height: 17.424px;
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 12px;
+  }
+  /* pv-price-1-1-587143  */
+  .zine_layout_template.product_catalog_ontario .product-1 .product-price {
+    top: 21.35%;
+    left: 63.0719%;
+  }
+  .zine_layout_template.product_catalog_ontario .product-price {
+    width: 196px;
+    height: 17.424px;
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  /* e-sku_title1-587143  */
+  .zine_layout_template.product_catalog_ontario .product-1 .product-sku-title {
+    top: 23.55%;
+    left: 57.35294%;
+  }
+  .zine_layout_template.product_catalog_ontario .product-1 .product-sku {
+    top: 23.55%;
+    left: 63.0719%;
+  }
+  /* e-img_index1-587143 */
+  .zine_layout_template.product_catalog_ontario .product-1 .product-img-index {
+    top: 49.46465%;
+    left: 45.42484%;
+  }
+  .zine_layout_template.product_catalog_ontario .product-img-index {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    padding-top: 5px;
+    color: #fff;
+    font-size: 14px;
+  }
+  .zine_layout_template.product_catalog_ontario .draggable {
+    z-index: 1000;
+  }
+  .fore_color {
+    background-color: #005184;
+  }
+  /* product product-2  */
+  .zine_layout_template.product_catalog_ontario p,
+  .zine_layout_template.product_catalog_ontario div,
+  .zine_layout_template.product_catalog_ontario .list-inline,
+  .zine_layout_template.product_catalog_ontario .list-inline > li {
+    margin: 0;
+    padding: 0;
+  }
+  .zine_layout_template.product_catalog_ontario .product-wrapper {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+  .zine_layout_template.product_catalog_ontario .product-2 .product-img {
+    top: 54.26263%;
+    left: 1.6%;
+    width: 296.208px;
+    height: 320.56px;
+  }
+  .zine_layout_template.product_catalog_ontario .product-img {
+    position: absolute;
+    /* display: inline-block; */
+    overflow: hidden;
+  }
+  .hidden {
+    display: none !important;
+  }
+  a {
+    color: #337ab7;
+    text-decoration: none;
+  }
+  a {
+    background-color: transparent;
+  }
+  /* end product image  */
+  .zine_layout_template.product_catalog_ontario .product-2 .product-index {
+    top: 26.5%;
+    left: 53.26797%;
+  }
+  .zine_layout_template.product_catalog_ontario .product-2 .product-title {
+    top: 26.5%;
+    left: 57.35294%;
+  }
+  /* end product title  */
+  .zine_layout_template.product_catalog_ontario .product-2 .product-desc {
+    top: 29%;
+    left: 57.35294%;
+  }
+  .zine_layout_template.product_catalog_ontario .product-2 .product-currency {
+    top: 34.6%;
+    left: 57.35294%;
+  }
+  /* pv-price-1-2-587143 */
+  .zine_layout_template.product_catalog_ontario .product-2 .product-price {
+    top: 34.6%;
+    left: 63.0719%;
+  }
+  .zine_layout_template.product_catalog_ontario .product-price {
+    width: 196px;
+    height: 17.424px;
+    position: absolute;
+    overflow: hidden;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .zine_layout_template.product_catalog_ontario .product-2 .product-sku-title {
+    top: 36.8%;
+    left: 57.35294%;
+  }
+  .zine_layout_template.product_catalog_ontario .product-sku-title {
+    width: 40px;
+    height: 17.424px;
+    position: absolute;
+    overflow: hidden;
+    font-size: 12px;
+  }
+  .zine_layout_template.product_catalog_ontario .product-2 .product-sku {
+    top: 36.8%;
+    left: 63.0719%;
+  }
+  .zine_layout_template.product_catalog_ontario .product-sku {
+    width: 196px;
+    height: 17.424px;
+    position: absolute;
+    overflow: hidden;
+    font-size: 12px;
+  }
+  
+  .zine_layout_template.product_catalog_ontario .product-2 .product-img-index {
+    top: 54.26263%;
+    left: 45.42484%;
+  }
+  /* end product2  */
+  .zine_layout_template.product_catalog_ontario .product-3 .product-img {
+    top: 54.26263%;
+    left: 51.6%;
+    width: 286.416px;
+    height: 320.56px;
+  }
+  
+  /* end product3  */
+  .zine_layout_template.product_catalog_ontario .product-3 .product-index {
+    top: 39.75%;
+    left: 53.26797%;
+  }
+  .zine_layout_template.product_catalog_ontario .product-3 .product-title {
+    top: 39.75%;
+    left: 57.35294%;
+  }
+  .zine_layout_template.product_catalog_ontario .product-3 .product-desc {
+    top: 42.25%;
+    left: 57.35294%;
+  }
+  .zine_layout_template.product_catalog_ontario .product-3 .product-currency {
+    top: 47.85%;
+    left: 57.35294%;
+  }
+  .zine_layout_template.product_catalog_ontario .product-3 .product-price {
+    top: 47.85%;
+    left: 63.0719%;
+  }
+  .zine_layout_template.product_catalog_ontario .product-3 .product-sku-title {
+    top: 50.05%;
+    left: 57.35294%;
+  }
+  .zine_layout_template.product_catalog_ontario .product-3 .product-sku {
+    top: 50.05%;
+    left: 63.0719%;
+  }
+  .zine_layout_template.product_catalog_ontario .product-3 .product-img-index {
+    top: 54.26263%;
+    left: 51.63399%;
+  }
+  
+  .zine_layout_template.product_catalog_ontario .zine_page_header_bg {
+    position: absolute;
+    top: 0.26%;
+    left: 50%;
+    width: 306px;
+    height: 87.12px;
+  }
+  .fore_color {
+    background-color: #005184;
+  }
+  .zine_layout_template.product_catalog_ontario .draggable {
+    z-index: 1000;
+  }
+  .zine_layout_template.product_catalog_ontario .zine_page_title {
+    position: absolute;
+    top: 3%;
+    left: 55%;
+    width: 266px;
+    height: 69.2px;
+    color: #fff;
+    font-size: 15px;
+  }
+  .zine_layout_template.product_catalog_ontario .zine_page_num {
+    position: absolute;
+    top: 96%;
+    left: 94%;
+    width: 30px;
+    height: 31.68px;
+  }
+  
+  /* pages-2  */
+  body.zine-vertical-wrapper .vertical-wrapper .vertical-body {
+    height: auto;
+  }
+  .zine-vertical-wrapper .vertical-wrapper .vertical-body {
+    width: 100%;
+    position: relative;
+    display: block;
+  }
+  .zine_layout_template.product_catalog_variants_v2.zine_container_base {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    line-height: 1.2;
+    font-family: Helvetica;
+  }
+  .zine_layout_template.product_catalog_variants_v2 .zine_page_middle {
+    position: absolute;
+    height: 95%;
+    width: 100%;
+    top: 1%;
+    left: 0;
+  }
+  .zine_layout_template.product_catalog_variants_v2 .products {
+    height: 100%;
+    width: 100%;
+  }
+  .zine_layout_template.product_catalog_variants_v2 .product {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    float: left;
+  }
+  .zine_layout_template.product_catalog_variants_v2 .product-wrapper {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+  #p-img-1-587144 {
+    max-height: none;
+    width: 524px;
+    top: 0.37%;
+    left: -5.41%;
+    height: 321px;
+  }
+  .zine_layout_template.product_catalog_variants_v2 .product .product-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 612px;
+    height: 376.2px;
+    z-index: 999;
+  }
+  /* end product image  */
+  #pv-img-1-1-587144 {
+    top: 43.89%;
+    left: 70.07%;
+  }
+  .zine_layout_template.product_catalog_variants_v2
+    .product
+    .product_variant_img1 {
+    position: absolute;
+    top: 51.5%;
+    left: 2%;
+    width: 191.7396px;
+    height: 127.908px;
+    background-position: center;
+    z-index: 999;
+  }
+  #pv-img-2-1-587144 {
+    top: 2.2%;
+    left: 69.69%;
+  }
+  .zine_layout_template.product_catalog_variants_v2
+    .product
+    .product_variant_img2 {
+    position: absolute;
+    top: 51.5%;
+    left: 34.33%;
+    width: 191.7396px;
+    height: 127.908px;
+    background-position: center;
+    z-index: 999;
+  }
+  #pv-img-3-1-587144 {
+    top: 21.52%;
+    left: 70.08%;
+  }
+  .zine_layout_template.product_catalog_variants_v2
+    .product
+    .product_variant_img3 {
+    position: absolute;
+    top: 51.5%;
+    left: 66.66%;
+    width: 191.7396px;
+    height: 127.908px;
+    background-position: center;
+    z-index: 999;
+  }
+  .zine_layout_template.product_catalog_variants_v2 .product .product-title_bg {
+    position: absolute;
+    top: 41.5%;
+    left: 0%;
+    width: 428.4px;
+    height: 63.954px;
+    overflow: hidden;
+    opacity: 0.75;
+  }
+  .zine_layout_template.product_catalog_variants_v2 .draggable {
+    z-index: 1000;
+  }
+  #p-title-1-587144 {
+    top: 44%;
+    left: 24.08%;
+  }
+  .zine_layout_template.product_catalog_variants_v2 .product .product-title {
+    position: absolute;
+    top: 43%;
+    left: 2%;
+    width: 403.92px;
+    height: 41.382px;
+    overflow: hidden;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.3;
+  }
+  .zine_layout_template.product_catalog_variants_v2 .content-editable {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  #p-desc-1-587144 {
+    top: 51.15%;
+    height: 296px;
+    max-height: none;
+    width: 440px;
+    font-weight: 500;
+    left: 2.5%;
+  }
+  .zine_layout_template.product_catalog_variants_v2 .product .product-desc {
+    position: absolute;
+    top: 70%;
+    left: 2.5%;
+    width: 581.4px;
+    height: 154.242px;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 1.3;
+  }
+  a {
+    color: #337ab7;
+    text-decoration: none;
+  }
+  .zine_layout_template.product_catalog_variants_v2 .product .product-currency {
+    position: absolute;
+    top: 91.5%;
+    left: 75%;
+    width: 55.08px;
+    height: 26.334px;
+    overflow: hidden;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .zine_layout_template.product_catalog_variants_v2 .product .product-price {
+    position: absolute;
+    top: 91.5%;
+    left: 86%;
+    width: 73.44px;
+    height: 26.334px;
+    overflow: hidden;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .zine_layout_template.product_catalog_variants_v2 .product .product-divider {
+    position: absolute;
+    top: 95.5%;
+    left: 74%;
+    width: 134.64px;
+    height: 1px;
+    overflow: hidden;
+    background-color: #000;
+  }
+  .zine_layout_template.product_catalog_variants_v2 .product .product-sku-title {
+    position: absolute;
+    top: 96%;
+    left: 75.5%;
+    width: 33.66px;
+    height: 22.572px;
+    overflow: hidden;
+    font-size: 13px;
+  }
+  .zine_layout_template.product_catalog_variants_v2 .product .product-sku {
+    position: absolute;
+    top: 96%;
+    left: 85.5%;
+    width: 97.92px;
+    height: 30.096px;
+    overflow: hidden;
+    font-size: 13px;
+    text-align: center;
+  }
+  .zine_layout_template.product_catalog_variants_v2 .header_bg {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 612px;
+    height: 7.92px;
+  }
+  .zine_layout_template.product_catalog_variants_v2 .footer_bg {
+    position: absolute;
+    top: 96.5%;
+    left: 0%;
+    width: 612px;
+    height: 27.72px;
+  }
+  .zine_layout_template.product_catalog_variants_v2 .zine_page_title {
+    position: absolute;
+    top: 97%;
+    left: 13%;
+    width: 489.6px;
+    height: 19.8px;
+    color: #fff;
+    font-size: 14px;
+  }
+  .zine_layout_template.product_catalog_variants_v2 .page_num {
+    position: absolute;
+    top: 97%;
+    left: 93.7%;
+    width: 32.436px;
+    height: 19.8px;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+  }
+  .zine_layout_template.back_cover_ontario {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  .zine_layout_template.back_cover_ontario .layout-bg {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    height: 792px;
+    width: 612px;
+    background-color: #12141a;
+  }
+  .zine_layout_template.back_cover_ontario .post-wrapper .layout-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 673.2px;
+    width: 612px;
+    background-size: cover;
+    display: block;
+  }
+  .zine_layout_template.back_cover_ontario .image-cover {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+  }
+  .zine_layout_template.back_cover_ontario .post-wrapper .layout-text {
+    position: absolute;
+    top: 87%;
+    left: 4%;
+    height: 95.04px;
+    width: 563.04px;
+    text-align: left;
+    color: #fff;
+    font-size: 12px;
+  }
+  ul.no-list {
+    padding-left: 0;
+    margin-top: -15px;
+  }
+  ul.no-list > li {
+    list-style: none;
+  }
+  
+
+
+.ui-draggable-handle{
+    transform-origin: left top;
+    transform: scale(0.86765);
+    display: block;
+    cursor: pointer;
+}

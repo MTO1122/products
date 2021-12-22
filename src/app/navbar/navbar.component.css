@@ -1,0 +1,64 @@
+nav.topbar-fixed {
+    position: fixed;
+    top: 0px;
+}
+nav.topbar {
+    height: 45px;
+    width: 100%;
+    z-index: 20;
+    display: flex;
+    flex-direction: row;
+    background-size: 100%;
+    background-image: linear-gradient(rgb(78, 78, 78), rgb(32, 32, 32));
+}
+nav.topbar ul.topbar-menu.center-menu {
+    justify-content: center;
+}
+nav.topbar ul.topbar-menu {
+    flex: 1 1 0%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+nav.topbar ul.topbar-menu.center-menu > li:first-child:not(.extend-animation) {
+    padding-left: 27px;
+}
+nav.topbar ul.topbar-menu.center-menu li:not(.extend-animation) {
+    min-width: 111px;
+}
+nav.topbar ul.topbar-menu li.topbar-menu-item {
+    display: flex;
+    flex-direction: row;
+}
+nav.topbar ul.topbar-menu li.topbar-menu-item i:not(.btn-pop-item).bordered-right, nav.topbar ul.topbar-menu li.topbar-menu-item form.bordered-right {
+    border-right: solid 1px var(--ads-black, #333);
+}
+nav.topbar ul.topbar-menu li.topbar-menu-item i:not(.btn-pop-item) span, nav.topbar ul.topbar-menu li.topbar-menu-item form span {
+    margin-left: 10px;
+}
+.topbar-fixed .topbar-menu li{
+    color:white;
+}
+.topbar-fixed .topbar-menu li .class i{
+    padding-left:20px;
+}
+.topbar-fixed .topbar-menu li:hover{
+    background-color:rgb(53, 52, 52);
+
+}
+.topbar-fixed .topbar-menu li i{
+    padding-top: 12px;
+    margin-right: 8px;
+}
+.topbar-fixed .topbar-menu li span{
+    padding-top: 8px;
+}
+/* //////////////end nav!!////////////////////  */
+ul li.active{
+    background-color: #262626;
+    color:#fff;
+}
+

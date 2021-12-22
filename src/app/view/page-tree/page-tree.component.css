@@ -1,0 +1,228 @@
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    overflow: hidden!important; background: #353535;
+}
+body:not(.vertical-view), html:not(.vertical-view) {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    height: 100%;
+    width: 100%;
+    -ms-touch-action: none!important;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: transparent;
+}
+#previous {
+    background-position: 0 0;
+    background-image: url(https://demo.zination.com/site_media/static/img/arrows.png);
+    left: 10px;
+}
+.btn-nav-page {
+    background-repeat: no-repeat;
+    height: 44px;
+    margin-top: -22px;
+    width: 44px;
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+#next {
+    background-position: 100% 0;
+    background-image: url(https://demo.zination.com/site_media/static/img/arrows.png);
+    right: 10px;
+}
+.btn-nav-page {
+    background-repeat: no-repeat;
+    height: 44px;
+    margin-top: -22px;
+    width: 44px;
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+
+/* #wrapper  */
+#wrapper {
+    background: transparent;
+}
+#wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#wrapper #scroller {
+    z-index: 1;
+    -webkit-tap-highlight-color: transparent;
+    height: 100vh;
+    padding: 0;
+    width: 100%;
+}
+ul#slideContainer {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: -webkit-transform 0s linear;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+ul#slideContainer>li {
+    float: left;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.zoom_content {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#wrapper ul li .page_content {
+    display: block;
+    vertical-align: middle;
+    width:100%;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+#wrapper .zine_content, #wrapper ul li .zine_content {
+    display: block;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -webkit-text-size-adjust: auto;
+    box-sizing: border-box;
+    background-origin: content-box,padding-box;
+}
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+li {
+    text-align: -webkit-match-parent;
+}
+.zine_content #zine_zineWrapper1 {
+    background-color: #fff;
+}
+.coverpage-type-a_v2.FILTER_ZineWrapper {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    border: none !important;
+    border-left-width: none !important;
+    border-right-width: none !important;
+    border-right-style: none !important;
+    line-height: normal;
+}
+.coverpage-type-a_v2.FILTER_ZineWrapper .decor_cover_bg {
+    width: 100% !important;
+    height: 100%;
+    background: #353535;
+}
+.coverpage-type-a_v2 .middle {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.coverpage-type-a_v2.FILTER_ZineWrapper .draggable {
+    z-index: 1000;
+}
+.coverpage-type-a_v2 .image_fill {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.coverpage-type-a_v2 .Travel_Image {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 612px;
+    height: 820px;
+}
+.coverpage-type-a_v2 .zinetitle_bg {
+    position: absolute;
+    width: 477.36px;
+    height: 126.72px;
+    top: 80%;
+    left: 22%;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.5);
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+.coverpage-type-a_v2 .zinetitle {
+    position: absolute;
+    width: 459px;
+    max-height: 118.8px;
+    top: 81%;
+    left: 24%;
+    font-family: "AvenirNextLTPro-Regular";
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+    word-wrap: break-word;
+    overflow: hidden;
+    padding: 5px;
+}
+.coverpage-type-a_v2 .content-editable {
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+style {
+    display: none;
+}* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#slideContainer{
+    user-select: none;
+    -webkit-user-drag: none; 
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
+    touch-action: none;
+}
+.zoom_contenter{
+    transition-property: transform; 
+    transform-origin: 0px 0px; 
+    transform: translate(0px, 0px) translateZ(0px);
+}
+.zine_content{
+    float: left;
+    width: 532px; 
+    position: relative; 
+    padding-top: 40px;
+    overflow: hidden;
+}
+.page_content{
+    width: 1022px;
+}

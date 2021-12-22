@@ -1,0 +1,87 @@
+.zine_content #zine_zineWrapper1 {
+    background-color: #fff;
+}
+.coverpage-type-a_v2.FILTER_ZineWrapper {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    border: none !important;
+    border-left-width: none !important;
+    border-right-width: none !important;
+    border-right-style: none !important;
+    line-height: normal;
+}
+.coverpage-type-a_v2.FILTER_ZineWrapper .decor_cover_bg {
+    width: 100% !important;
+    height: 100%;
+    background: #353535;
+}
+.coverpage-type-a_v2 .middle {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.coverpage-type-a_v2.FILTER_ZineWrapper .draggable {
+    z-index: 1000;
+}
+.coverpage-type-a_v2 .image_fill {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.coverpage-type-a_v2 .Travel_Image {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 612px;
+    height: 792px;
+}
+.coverpage-type-a_v2.FILTER_ZineWrapper .draggable {
+    z-index: 1000;
+}
+.coverpage-type-a_v2 .zinetitle_bg {
+    position: absolute;
+    width: 477.36px;
+    height: 126.72px;
+    top: 80%;
+    left: 22%;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.5);
+}
+.coverpage-type-a_v2.FILTER_ZineWrapper .draggable {
+    z-index: 1000;
+}
+.coverpage-type-a_v2 .zinetitle {
+    position: absolute;
+    width: 459px;
+    max-height: 118.8px;
+    top: 81%;
+    left: 24%;
+    font-family: "AvenirNextLTPro-Regular";
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+    word-wrap: break-word;
+    overflow: hidden;
+    padding: 5px;
+}
+.ui-draggable-handle {
+    -ms-touch-action: none;
+    touch-action: none;
+    transform-origin: left top; 
+    transform: scale(0.86765); 
+    display: block; 
+    cursor: pointer;
+}
+.coverpage-type-a_v2 .content-editable {
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+}
+.text-left {
+    text-align: left;
+}
